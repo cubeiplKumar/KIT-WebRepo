@@ -28,5 +28,14 @@ public class ReadAndPrintScores
 		catch(IOException e)
 		{	System.out.println("An error occured while trying to write to the file");
 		}
-		
+		#feature201 changes by Arshad in June2022 for the module reports
+		public static void main(String[] args) {
+
+			int count = 0, num = 0003452;
+
+		while (num != 0) {
+		// num = num/10
+		num /= 10;
+		++count;
+    }
 }
