@@ -28,5 +28,15 @@ public class ReadAndPrintScores
 		catch(IOException e)
 		{	System.out.println("An error occured while trying to write to the file");
 		}
-		
+		#feature202 changes by Kiran on NewPolicies Module in June2022
+		public static void main(String[] args) {
+
+    int count = 0, num = 123456;
+
+    for (; num != 0; num /= 10, ++count) {
+    }
+
+    System.out.println("Number of digits: " + count);
+  }
+}
 }
