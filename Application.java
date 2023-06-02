@@ -15,6 +15,11 @@ public class ReadAndPrintScores
 	{	System.out.println( e );
 	}
     }
-	
+	 // create a method
+  public int addNumbers(int a, int b) {
+    int sum = a + b;
+    // return value
+    return sum;
+  }
 		
 }
